@@ -1,4 +1,4 @@
-# flappy-bird-server
+# minesweeper-server
 
 Also see [ARCHITECTURE.md](/ARCHITECTURE.md)
 
@@ -26,7 +26,7 @@ Create and setup your [Pinata account](https://app.pinata.cloud/developers/api-k
 
 ### Telegram bot & Telegram Web App
 1. Create a Telegram bot using `/newbot` command of [BotFather](https://t.me/botfather). Save your bot token.
-1. Run `/newapp` select your bot to link it with your Telegram Mini App. Enter app name, description, `640x360` px image. Specify domain when the game will be hosted (use domain you got from Ngrok). Then input your game short name for the URL. You will receive full game URL inside of Telegram, e. g.: `https://t.me/flappybirddevbot/flappybirddev` Save it.
+1. Run `/newapp` select your bot to link it with your Telegram Mini App. Enter app name, description, `640x360` px image. Specify domain when the game will be hosted (use domain you got from Ngrok). Then input your game short name for the URL. You will receive full game URL inside of Telegram, e. g.: `https://t.me/minesweeperdevbot/minesweeperdev` Save it.
 
 ### Environment variables
 Run `./setup.sh`. Follow the instructions. You are ready to go!
